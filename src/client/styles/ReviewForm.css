@@ -1,0 +1,62 @@
+.review-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.random-reviews-container {
+  flex: 1;
+}
+
+.random-reviews-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.random-reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.random-review-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-form-container {
+  flex: 1;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+}

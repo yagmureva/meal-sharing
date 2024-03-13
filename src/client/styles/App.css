@@ -1,0 +1,111 @@
+/* App.css */
+
+/* Overall container */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header section */
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: rgb(12, 11, 11);
+  padding: 30px;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.app-description {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Main content section */
+.app-main {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Footer section */
+.app-footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #888;
+  padding: 30px;
+  width: 100%;
+}
+
+.app-footer-nav {
+  margin-top: 30px;
+}
+
+.app-footer-nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.app-footer-nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.app-footer-nav-list li a {
+  text-decoration: none;
+  color: #888;
+}
+
+/* Home page */
+.home-page {
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  background-image: url("/Users/hyf/Desktop/meal-sharing/src/client/images/meal2.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  height: 600px;
+  width: 100%;
+}
+
+/* Overlay */
+.home-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust only the opacity here */
+  border-radius: 5px;
+}
+
+.home-page-title,
+.home-page-description,
+.home-page-action {
+  position: relative; /* Ensure the text is on top of the overlay */
+  color: #fff; /* Change text color to white */
+}
+
+.home-page-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.home-page-description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.home-page-action {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}

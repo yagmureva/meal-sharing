@@ -1,6 +1,5 @@
 require("dotenv").config();
 const path = require("path");
-const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -11,7 +10,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, outputDirectory),
     filename: "bundle.js",
-    hashFunction: "SHA3-256",
   },
   module: {
     rules: [
@@ -39,7 +37,7 @@ module.exports = {
     extensions: ["*", ".js", ".jsx"],
   },
   devServer: {
-    //static: "/",
+    static: "/",
     historyApiFallback: true,
     port: parseInt(process.env.CLIENT_PORT, 10),
     open: process.env.OPEN_BROWSER === "true" ? true : false,
@@ -49,7 +47,6 @@ module.exports = {
   },
   node: {
     global: false,
-
     __filename: false,
     __dirname: false,
   },
@@ -58,7 +55,6 @@ module.exports = {
       template: "./public/index.html",
       favicon: "./public/favicon.ico",
     }),
-    new CaseSensitivePathsPlugin(),
     new Dotenv({
       safe: false,
     }),

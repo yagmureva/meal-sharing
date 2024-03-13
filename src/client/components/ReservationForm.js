@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/Users/hyf/Desktop/meal-sharing/src/client/styles/ReservationForm.css"; // Import ReservationForm.css
+import "../styles/ReservationForm.css"; // Import ReservationForm.css
 
 const ReservationForm = () => {
   // State for form fields

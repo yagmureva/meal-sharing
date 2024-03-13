@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "/Users/hyf/Desktop/meal-sharing/src/client/styles/ReviewForm.css"; // Import CSS for styling
+import "../styles/ReviewForm.css"; // Import CSS for styling
 
 const ReviewForm = ({ mealId }) => {
   const [reviewData, setReviewData] = useState({

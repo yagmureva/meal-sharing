@@ -1,7 +1,7 @@
 // Meal.js
 
 import React from "react";
-import mealImage from "../images/mealImage"; // Import the image from your local folder
+import mealImage from "../images/mealImage.png"; // Import the image from your local folder
 import "../styles/Meal.css";
 
 const Meal = ({ meal }) => {

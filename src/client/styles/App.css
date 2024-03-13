@@ -67,7 +67,7 @@
   text-align: center;
   padding: 50px;
   position: relative;
-  background-image: url("/Users/hyf/Desktop/meal-sharing/src/client/images/meal2.png");
+  background-image: url("../images/meal2.png");
   background-size: cover;
   background-position: center;
   border-radius: 5px;

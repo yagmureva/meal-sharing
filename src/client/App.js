@@ -21,7 +21,7 @@ function App() {
       <main className="app-main">
         <Router>
           <Route path="/meals" component={MealsList} />
-          <Route path="/reservations" component={ReservationForm} />{" "}
+         <Route path="/reservation/:id" component={ReservationForm} /> {' '}
           {/* Route for reservations */}
             <Route path="/reviews" component={ReviewForm} />
           <Route exact path="/" component={HomePage} />

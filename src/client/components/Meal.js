@@ -1,21 +1,15 @@
-// Meal.js
-
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
 import mealImage from "../images/mealImage.png"; // Import the image from your local folder
 import "../styles/Meal.css";
 
 const Meal = ({ meal }) => {
-  const handleClick = () => {
-    // Handle click event for meal card
-    console.log(`Clicked on meal: ${meal.title}`);
-  };
-
   const mealCardStyle = {
     backgroundImage: `url(${mealImage})`, // Use the imported image as background
   };
 
   return (
-    <div className="meal-card" style={mealCardStyle} onClick={handleClick}>
+    <div className="meal-card" style={mealCardStyle}>
       <div className="meal-image">
         {/* Image with class */}
         <img src={mealImage} alt={meal.title} className="meal-img" />
@@ -24,7 +18,8 @@ const Meal = ({ meal }) => {
         <h3 className="meal-title">{meal.title}</h3>
         <p className="meal-description">{meal.description}</p>
         <p className="meal-price">Price: {meal.price}</p>
-        <button className="btn">See Details</button>
+        {/* Use Link component to navigate to reservation page */}
+        <Link to={`/reservation/${meal.id}`} className="btn">See Details</Link>
       </div>
     </div>
   );

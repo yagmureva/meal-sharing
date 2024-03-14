@@ -19,13 +19,13 @@ function App() {
 
       {/* Main content section */}
       <main className="app-main">
-        <Routes>
+        <Router>
           <Route path="/meals" element={<MealsList />} />
           <Route path="/reservations" element={<ReservationForm />} />{" "}
           {/* Route for reservations */}
           <Route path="*" element={<HomePage />} />
           <Route path="/reviews" element={<ReviewForm />} />
-        </Routes>
+        </Router>
       </main>
 
       {/* Footer section */}

@@ -24,7 +24,7 @@ function App() {
           <Route path="/reservations" component={ReservationForm} />{" "}
           {/* Route for reservations */}
             <Route path="/reviews" component={ReviewForm} />
-          <Route path="/" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
 
         </Router>
       </main>

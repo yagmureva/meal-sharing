@@ -49,10 +49,6 @@ function App() {
               <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/reservations/:id">Reservation</a>{" "}
-              {/* Link to reservation page */}
-            </li>
-            <li>
               <a href="/reviews">Reviews</a>{" "}
             </li>
           </ul>

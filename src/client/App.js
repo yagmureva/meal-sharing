@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../client/styles/App.css";
 import MealsList from "./components/MealsList";
 import ReservationForm from "./components/ReservationForm"; // Import

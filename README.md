@@ -9,6 +9,11 @@ The Meal Sharing App is a full-stack web application designed to facilitate meal
 [https://meal-sharing-app.onrender.com/](#) 
 
 
+## Demo Video
+
+[Watch Demo Video](https://www.loom.com/share/6560f02440e34494a4f4f15bed998848?sid=9f92eb54-0cdc-4419-a7ec-f2d82caf4189)
+
+
 ## Technologies Used
 
 ```markdown

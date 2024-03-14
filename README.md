@@ -18,7 +18,7 @@ https://github.com/yagmureva/meal-sharing/assets/127700012/d20abcca-d780-4c3d-9f
 ## Technologies Used
 
 ```markdown
-- **Frontend**: React
+- **Frontend**: React, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL, PostgresSQL
 - **ORM (Object-Relational Mapping)**: KnexJS

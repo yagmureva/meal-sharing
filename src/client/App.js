@@ -20,11 +20,12 @@ function App() {
       {/* Main content section */}
       <main className="app-main">
         <Router>
-          <Route path="/meals" element={<MealsList />} />
-          <Route path="/reservations" element={<ReservationForm />} />{" "}
+          <Route path="/meals" component={MealsList} />
+          <Route path="/reservations" component={ReservationForm} />{" "}
           {/* Route for reservations */}
-          <Route path="*" element={<HomePage />} />
-          <Route path="/reviews" element={<ReviewForm />} />
+            <Route path="/reviews" component={ReviewForm} />
+          <Route path="/" component={HomePage} />
+
         </Router>
       </main>
 

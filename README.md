@@ -14,8 +14,9 @@ The Meal Sharing App is a full-stack web application designed to facilitate meal
 ```markdown
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
-- **Database**: MySQL
+- **Database**: MySQL, PostgresSQL
 - **ORM (Object-Relational Mapping)**: KnexJS
+
 
 ```
 
@@ -28,11 +29,6 @@ The Meal Sharing App is a full-stack web application designed to facilitate meal
 - **Database Integration**: Meals stored in a MySQL database are displayed on the platform.
 ```
 
-## Modules
-
-```markdown
-- **PostgresSQL**: Although not utilized in this project, PostgresSQL is listed as a potential alternative or future expansion.
-```
 
 ## What I Learned
 
